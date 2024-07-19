@@ -1,0 +1,15 @@
+#heading{
+    margin-bottom:30px;
+    font-size: larger;
+}
+.query{
+    background-color: antiquewhite;
+    padding:5px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+h4{
+    margin: 2px;
+    padding: 4px;
+    font-size: larger;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doubts and Queries</title>
+    <link rel="stylesheet" href="post.css">
+</head>
+
+<body>
+    <header>
+        <center id="heading">Doubt resolving Platform</center>
+    </header>
+    <main>
+        <div id="outer-container">
+            <form action="post1" method="post">
+                <div class="input">
+                    <label for="rollno" class="input-names">
+                        Roll No
+                        <input type="text" name="rollno" id="rollno" required>
+                    </label>
+                </div>
+                <div class="input">
+                    <label for="name" class="input-names">Name
+                        <input type="text" name="name" id="name" required>
+                    </label>
+                </div>
+                <div class="input">
+                    <label  for="category" class="input-names"> Category
+                        <select name="category" id="category" required>
+                            <option>CN</option>
+                            <option>DBMS</option>
+                            <option>DSA</option>
+                            <option>OS</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="input">
+                    <label class="input-names" for="desc"> Problem description<br>
+                       <textarea rows="10" cols="100" name="desc" required></textarea>                    
+                    </label>
+
+                </div>
+                <button type="submit" id="post">Post</button>
+            </form>
+        </div>
+        
+    </main>
+    <script src="post.js"></script>
+</body>
+
+</html>

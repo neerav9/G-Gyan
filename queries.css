@@ -1,0 +1,51 @@
+body{
+    /* background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  */
+    background-color:rgb(244 244 244);
+
+}
+ #heading{
+    font-size: larger;
+    color:blue;
+ }
+ #ans_desc{
+    overflow: scroll;
+ }
+.query{
+    border:2px solid rgb(11, 216, 202);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    margin:10px;
+}
+#ans_form{
+    border:2px solid rgb(216, 11, 11);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    margin:10px;
+    padding: 1px 6px;
+}
+
+#answered{
+    /* background-color: rgb(209 255 210); */
+    /* background-color: rgb(76, 171, 82); */
+    border:2px solid lightgreen;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    margin:10px;
+    padding:5px;
+    overflow: scroll;
+}
+h3{
+    padding:3px;
+    margin:0px;
+    color:rgb(101, 18, 255)
+}
+h4{
+    padding: 0;
+    margin: 6px;
+    color:rgb(228, 0, 0);
+}
+.ans_submit{
+    margin-top:1%;
+    margin-left:45%;
+    margin-bottom:1.5%;
+}

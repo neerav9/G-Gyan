@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Deekshith",
+    "regid": "VU21CSEN0101731",
+    "email": "dsistu@gitam.in",
+    "password": "gitam1731",
+    "role": "Student"
+  },
+  {
+    "name": "Neerav Krishna",
+    "regid": "VU21CSEN0100480",
+    "email": "nuppu2@gitam.in",
+    "password": "neer2002",
+    "role": "Student"
+  },
+  {
+    "name": "Bharadwaj",
+    "regid": "VU21CSEN0100001",
+    "email": "cchellap@gitam.in",
+    "password": "bhar0001",
+    "role": "Student"
+  },
+  {
+    "name": "Abhiroop",
+    "regid": "VU21CSEN0101732",
+    "email": "abhi@gitam.in",
+    "password": "abhi1996",
+    "role": "Teacher"
+  }
+]

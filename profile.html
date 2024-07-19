@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="./profile.css">
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="profile-info">
+                <p>Name: Deekshith</p>
+                <p>Registration-ID: VU21CSEN0101731</p>
+                <p>Email id: dsistu@gitam.in</p>
+                <a href="event.html">Discussion Forum   </a>
+            </div>
+        </div>
+        <main>
+            <div class="left-half">
+                <!-- Course boxes -->
+                <section id="courses" class="section-box">
+                    <h2>Courses</h2>
+                    <div class="course-container">
+                        <!-- First row of courses -->
+                        <div class="course-row">
+                            <!-- Course 1 box with progress bar -->
+                            <div class="course-box">
+                                <h3>Operating System</h3>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 80%;"></div>
+                                    </div>
+                                    <span class="progress-percent">80%</span>
+                                </div>
+                            </div>
+                            <!-- Course 2 box with progress bar -->
+                            <div class="course-box">
+                                <h3>Computer Networks</h3>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 70%;"></div>
+                                    </div>
+                                    <span class="progress-percent">70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Second row of courses -->
+                        <div class="course-row">
+                            <!-- Course 3 box with progress bar -->
+                            <div class="course-box">
+                                <h3>Data base Mgm</h3>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 40%;"></div>
+                                    </div>
+                                    <span class="progress-percent">40%</span>
+                                </div>
+                            </div>
+                            <!-- Course 4 box with progress bar -->
+                            <div class="course-box">
+                                <h3>Data Structures</h3>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 60%;"></div>
+                                    </div>
+                                    <span class="progress-percent">60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Third row of courses -->
+                        <div class="course-row">
+                            <!-- Course 5 box with progress bar -->
+                            <div class="course-box">
+                                <h3>Analysis of Algorithms</h3>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 20%;"></div>
+                                    </div>
+                                    <span class="progress-percent">20%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="right-half">
+                <!-- Skills section -->
+                <section id="skills" class="section-box">
+                    <h2>Skills</h2>
+                    <!-- Skill bars -->
+                    <div class="skill">
+                        <div class="skill-bar">
+                            <h3>Node JS</h3><br>&nbsp;
+                            <div class="skill-box active"></div>
+                            <div class="skill-box active"></div>
+                            <div class="skill-box active"></div>
+                            <div class="skill-box"></div>
+                            <div class="skill-box"></div>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-bar">
+                            <h3>Django</h3><br>&nbsp;
+                            <div class="skill-box active"></div>
+                            <div class="skill-box active"></div>
+                            <div class="skill-box"></div>
+                            <div class="skill-box"></div>
+                            <div class="skill-box"></div>
+                            <span class="skill-percent">40%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-bar">
+                            <h3>LLM's</h3><br>&nbsp;
+                            <div class="skill-box active"></div>
+                            <div class="skill-box active"></div>
+                            <div class="skill-box active"></div>
+                            <div class="skill-box active"></div>
+                            <div class="skill-box"></div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- Goals section -->
+                <section id="goals" class="section-box">
+                    <h2>Goals</h2>
+                    <!-- Goals -->
+                    <div class="goals-row">
+                        <div class="goal">
+                            <div class="goal-circle"></div>
+                            <p>To Complete Leetcode 250 Problems</p>
+                        </div>
+                        <div class="goal">
+                            <div class="goal-circle"></div>
+                            <p>To get placed in a company of with CTC 15 LPA</p>
+                        </div>
+                        <div class="goal">
+                            <div class="goal-circle"></div>
+                            <p>To maintain the cgpa above 8.5 cgpa</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- To-Do List section -->
+            </div>
+        </main>
+        <section id="todo" class="section-box">
+            <h2>To-Do List</h2>
+            <ul class="todo-list" id="todo-list">
+                <!-- To-do items will be added here -->
+            </ul>
+            <div>
+                <input type="text" id="new-task-input" placeholder="New Task" style="display: none;">
+                <button id="add-task-button">Add Task</button>
+                <button id="submit-task-button" style="display: none;">Submit Task</button>
+            </div>
+        </section>
+    </div>
+    <script src="./profile.js"></script>
+</body>
+</html>

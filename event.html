@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+
+<body>
+    <header>
+        <center id="heading">Event Post</center>
+
+    </header>
+    <main>
+        <div id="outer-container">
+            <form action="event1" method="post">
+                <div class="input">
+                    <label for="date" class="input-names">
+                        Event Date
+                        <input type="date" name="date" id="date" placeholder='DD/MM/YYYY' required>
+                    </label>
+                </div>
+                <div class="input">
+                    <label for="name" class="input-names">Event Name
+                        <input type="text" name="name" id="name" required>
+                    </label>
+                </div>
+                <div class="input">
+                    <label for="time" class="input-names">
+                        Event Time
+                        <input type="time" name="time" id="time" required>
+                    </label>
+                </div>
+                <div class="input">
+                    <label class="input-names" for="desc"> Event description<br>
+                       <textarea rows="10" cols="100" name="desc" required></textarea>                    
+                    </label>
+
+                </div>
+                <button type="submit" id="post">Post</button>
+            </form>
+        </div>
+        
+    </main>
+    
+</body>
+
+</html>

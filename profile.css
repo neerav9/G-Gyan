@@ -1,0 +1,297 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5%;
+}
+
+.profile {
+    margin-right: 20px;
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+main {
+    display: flex;
+    padding: 10px;
+    margin-bottom:0;
+}
+
+.left-half, .right-half {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.section-box {
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.section-box:hover {
+    transform: translateY(-5px);
+    background-color: #444;
+}
+
+h2 {
+    color: #fff;
+}
+
+.mini-box {
+    background-color: #444;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.course-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.course-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.course-box {
+    flex: 1;
+    background-color: #555;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.course-box:last-child {
+    margin-right: 0;
+}
+
+.progress-bar-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background-color: #666;
+    border-radius: 5px;
+    height: 7px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.progress {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.progress-percent {
+    font-size: 12px;
+    color: #fff;
+}
+
+/* Skills section styles */
+.skill {
+    margin-bottom: 20px;
+    height:30%;
+}
+
+.skill-bar {
+    display: flex;
+    align-items: center;
+}
+
+.skill-box {
+    width: 20%;
+    height: 10px;
+    background-color: #666;
+    margin-right: 7px;
+    border-radius: 2px;
+}
+
+.skill-box.active {
+    background-color: #4caf50;
+}
+
+.skill-percent {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 10px;
+}
+#goals{
+    height:45%;
+}
+/* Goals section styles */
+.goals-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.goal-circle {
+    width: 30px;
+    height: 30px;
+    border: 5px solid #4caf50;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+
+.goal p {
+    text-align: center;
+}
+
+/* To-Do List styles */
+#todo{
+    width:93%;
+    margin:7% 2% 2% 2%;
+}
+
+.todo-list li {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    position: relative;
+    list-style: none;
+}
+
+.todo-list li.completed {
+    animation: strikethrough 2s forwards;
+}
+
+@keyframes strikethrough {
+    0% {
+        text-decoration: none;
+    }
+    100% {
+        text-decoration: line-through;
+    }
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+.todo-list li:hover {
+    
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Update the existing CSS with the following styles */
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 10px;
+    }
+
+    .profile {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .profile-info {
+        margin-left: 10px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .left-half, .right-half {
+        padding: 0;
+    }
+
+    .section-box {
+        padding: 15px;
+    }
+
+    .goal-circle {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* For tablets and larger devices */
+@media screen and (min-width: 769px) {
+    .header {
+        padding: 20px;
+    }
+
+    main {
+        flex-direction: row;
+    }
+
+    .left-half, .right-half {
+        padding: 0 20px;
+    }
+
+    .section-box {
+        padding: 20px;
+    }
+
+    .goal-circle {
+        width: 30px;
+        height: 30px;
+    }
+}

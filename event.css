@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(244 244 244);
+    
+}
+#outer-container{
+    height:80vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.input{
+    padding:5px;
+}
+
+form{
+    font-size: large;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    padding:5px;
+    height:60%;
+}
+textarea{
+    overflow: scroll;
+}
+
+button{
+    margin-left:45%;
+}
+
+#heading{
+    font-size: larger;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
